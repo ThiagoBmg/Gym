@@ -1,1 +1,17 @@
 .venv/*
+venv/*
+static/*
+*.swp
+.vscode/*
+# Compiled Python bytecode
+*$py.class
+*.py[cod]
+.pytest_cache/
+__pycache__/
+
+*.log
+
+*base_completa_db.sqlite3*
+
+# utilizando a pasta localmente para realizar testes 
+util/
