@@ -31,7 +31,7 @@ class SetAdmin(nested_admin.NestedModelAdmin, admin.ModelAdmin):
 
     fieldsets = (
         (
-            "INFORMAÇÕES", {
+            "Informações", {
                 "description": None,
                 "fields": ("machine",)
             }

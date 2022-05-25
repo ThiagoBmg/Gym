@@ -39,7 +39,7 @@ class Set(models.Model):
     reps = models.ManyToManyField(to="Rep", blank=True, related_name='Rep', )
 
     def __str__(self) -> str:
-        return f"{self.machine}"
+        return f"{self.machine} - {self.created_date}"
 
 
 class Rep(models.Model):

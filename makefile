@@ -4,7 +4,7 @@ env:
 	pip install --upgrade pip 
 	pip install -r requirements.txt --no-cache-dir
 run:
-	python manage.py runserver 8001
+	python manage.py runserver 8000
 migrate:
 	python manage.py makemigrations
 	python manage.py migrate
